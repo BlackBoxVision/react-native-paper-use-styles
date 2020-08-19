@@ -65,7 +65,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-paper": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -84,6 +85,9 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "release-it": {
     "git": {
