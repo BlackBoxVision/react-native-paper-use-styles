@@ -1,22 +1,18 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import ReactNativePaperUseStyles from '@blackbox-vision/react-native-paper-use-styles';
+import { View, Text } from 'react-native';
+import { makeStyles } from '@blackbox-vision/react-native-paper-use-styles';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    ReactNativePaperUseStyles.multiply(3, 7).then(setResult);
-  }, []);
+  const styles = useStyles();
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: 10</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeStyles({
   container: {
     flex: 1,
     alignItems: 'center',
