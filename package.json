@@ -1,6 +1,6 @@
 {
   "name": "@blackbox-vision/react-native-paper-use-styles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Custom Hook for dynamic styles with react-native-paper",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
