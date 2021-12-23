@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useTheme } from 'react-native-paper';
-import type { Theme } from 'react-native-paper/lib/typescript/src/types';
+import type { Theme } from 'react-native-paper/lib/typescript/types';
 import { StyleSheet, ViewStyle, TextStyle, ImageStyle } from 'react-native';
 
 type NamedStyles<T> = {
